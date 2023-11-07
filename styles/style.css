@@ -2,7 +2,11 @@
 
 @font-face { 
     font-family: "Tanker";  
-    src: url("./fonts/Tanker-Regular.woff")format("woff"); 
+    src: url("../fonts/Tanker-Regular.woff")format("woff"),
+        url("../fonts/Tanker-Regular.eot")format("eot"),
+        url("../fonts/Tanker-Regular.ttf")format("ttf"),
+        url("../fonts/Tanker-Regular.woff2")format("woff2");
+        
 }
 
 
