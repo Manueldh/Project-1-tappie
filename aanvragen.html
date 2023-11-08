@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tappunt aanvragen</title>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header>
+        <img class="logo-img" src="./images/tappie-logo-wit.png" alt="logo">
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html"><img src="./images/home-icoon-wit.svg" alt="">Home</a>
+                </li>
+                <li>
+                    
+                    <a href="info.html"> <img src="./images/info-icoon-wit.svg"  alt="">Info</a>
+                </li>
+                <li>
+                    <a href="aanvragen.html"><img src="./images/tappunt-icoon-wit.svg"  alt="">Aanvragen</a>
+                </li>
+                <li>
+                    <a href="huidige_punten.html"><img src="./images/kaart-icoon-wit.svg"  alt="">Kaart</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container aanvragen-kaart-container">
+            <h1>Tappunt aanvragen</h1>
+            <h2>Vraag hier je tappunt aan!</h2>
+            <form action="">
+                <fieldset>
+                    <p>
+                        <label for="naam">Naam</label>
+                        <input type="text" name="naam" id="naam">
+                    </p>
+                    <p>
+                        <label for="Telefoonnummer">Telefoonnummer</label>
+                        <input type="text" name="Telefoonnummer" id="Telefoonnummer">
+                    </p>
+                    <p>
+                        <label for="Email">Email</label>
+                        <input type="text" name="Email" id="Email">
+                    </p>
+                    <p>
+                        <label for="Adres">Adres nieuw watertappunt</label>
+                        <input type="text" name="Adres" id="Adres">
+                    </p>
+                    <p>
+                        <label for="Waarom">Waarom wil je hier een tappunt?</label>
+                        <textarea name="Waarom" id="Waarom" rows="4" cols="1000"></textarea>
+                    </p>
+                    <p>
+                        <input class="button" id="submit" type="submit" value="Aanvragen">
+                    </p>
+                </fieldset>
+            </form>
+        </section>
+        <div class="navigatie-ruimte"></div>
+    </main>
+    
+</body>
+</html>

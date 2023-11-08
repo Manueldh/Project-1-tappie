@@ -20,7 +20,7 @@ function isInViewport(element) {
       if (entry.isIntersecting) {
         const valueDisplay = entry.target;
         let startValue = 0;
-        let endValue = valueDisplay.getAttribute("eind-num");
+        let endValue = valueDisplay.getAttribute("data-eind-num");
         let duration = Math.floor(interval / endValue);
 
         let counter = setInterval(function () {
