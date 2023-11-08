@@ -44,3 +44,18 @@ function isInViewport(element) {
 
   // Ik heb hiervoor een tutorial van Coding Artist gevolgd: https://www.youtube.com/watch?v=FaMW-CtExrs&ab_channel=CodingArtist
   // Na deze tutorial heb ik met behulp van chatGPT ervoor gezorgt dat de functie pas begint wanneer het in beeld is. Dit is gedaan met de observer API.
+
+
+
+
+// https://www.youtube.com/watch?v=-HS9IIuT_Mo&ab_channel=dcode
+  window.addEventListener("load", () => {
+    const loader = document.querySelector(".loader");
+  
+    loader.classList.add("loader--hidden");
+  
+    loader.addEventListener("transitionend", () => {
+      document.body.removeChild(loader);
+    });
+  });
+  
